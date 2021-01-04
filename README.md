@@ -1,4 +1,4 @@
-# NetCDF_to_Shapefile
+# GOES-R NetCDF to Shapefile
 
 These scripts transform GOES-R Series products from their native netCDF format to ESRI shapefiles. Discrete variables, like the Level 2+ Clear Sky Mask product, can
 be polygonized easily-- a vector polygon can be created for all connected regions of pixels in the raster sharing a common pixel value. Continous variables,
